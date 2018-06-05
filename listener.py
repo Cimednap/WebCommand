@@ -46,6 +46,6 @@ nfqueue.bind(0, HandlePacket)
 #Run the program until Keyboard Interrupt
 try:
 	nfqueue.run()
-except KeyBoardInterrupt:
+except KeyboardInterrupt:
 	print('')
 
